@@ -1,0 +1,27 @@
+.home {
+  height: 100vh;
+
+  .home__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 4.375rem;
+  }
+
+  &__description {
+    font-size: 1rem;
+  }
+
+  &__skills-title {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  &__skills-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__skills-item {
+    margin-bottom: 0.5rem;
+  }
+}

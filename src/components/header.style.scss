@@ -1,0 +1,22 @@
+.header {
+  background-color: #1976d2;
+
+  &__btn {
+    color: inherit !important;
+  }
+
+  &__toolbar {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    flex-grow: 1;
+  }
+
+  &__nav-link {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 15px;
+  }
+}

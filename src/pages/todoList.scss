@@ -1,0 +1,11 @@
+.todoList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .add__button {
+    margin-left: 0.625rem;
+    padding: 15px;
+  }
+}
